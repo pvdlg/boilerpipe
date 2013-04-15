@@ -20,9 +20,9 @@ The best way to start is to look at [boilerpipe QuickStart](https://code.google.
 Simply add a new dependency to your `pom.xml`:
 
 ```xml
-	<dependency>
-		<groupId>com.syncthemall</groupId>
-		<artifactId>boilerpipe</artifactId>
-		<version>1.2.1</version>
-	</dependency>
+<dependency>
+	<groupId>com.syncthemall</groupId>
+	<artifactId>boilerpipe</artifactId>
+	<version>1.2.1</version>
+</dependency>
 ```
