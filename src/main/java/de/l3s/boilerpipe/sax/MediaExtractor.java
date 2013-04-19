@@ -223,7 +223,9 @@ public final class MediaExtractor {
                         if (inIgnorableElement == 0) {
                             if(inHighlight && "IFRAME".equalsIgnoreCase(localName)) {
                                 String src = atts.getValue("src");
-                                src = src.replaceAll("\\\\\"", "");
+                                if (src != null) {
+                                	src = src.replaceAll("\\\\\"", "");
+                                }
                                 if(src != null && src.length() > 0 && src.contains("youtube.com/embed/")) {
                                 	String originUrl = null;
                                 	try {
