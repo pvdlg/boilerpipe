@@ -26,3 +26,6 @@ Simply add a new dependency to your `pom.xml`:
 	<version>1.2.1</version>
 </dependency>
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vanduynslagerp/boilerpipe/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
