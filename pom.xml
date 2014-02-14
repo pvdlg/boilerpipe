@@ -92,15 +92,17 @@
 				<artifactId>license-maven-plugin</artifactId>
 				<version>2.5</version>
 				<configuration>
-					<header>com/mycila/licenses/MIT</header>
+					<header>com/mycila/licenses/APACHE-2</header>
 					<useDefaultExcludes>true</useDefaultExcludes>
 					<properties>
 						<owner>Christian Kohlschütter</owner>
+						<email>ckkohl79@gmail.com</email>
 						<year>${project.inceptionYear}</year>
 					</properties>
 					<excludes>
 						<exclude>**/README.md</exclude>
 						<exclude>**/*.xml</exclude>
+						<exclude>**/*.html</exclude>
 						<exclude>src/test/resources/**</exclude>
 						<exclude>src/main/resources/**</exclude>
 					</excludes>
