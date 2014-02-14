@@ -23,7 +23,7 @@ Simply add a new dependency to your `pom.xml`:
 <dependency>
 	<groupId>com.syncthemall</groupId>
 	<artifactId>boilerpipe</artifactId>
-	<version>1.2.1</version>
+	<version>1.2.2</version>
 </dependency>
 ```
 
